@@ -1,0 +1,1 @@
+recipes.addShaped(<RIO:item.pda>, [[<ore:screwIron>, <ore:itemCasingAluminium>, <ore:screwIron>],[<ore:circuitBasic>, <dreamcraft:item.Display>, <ore:circuitBasic>],[<ore:itemCasingAluminium>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <ore:itemCasingAluminium>]]);

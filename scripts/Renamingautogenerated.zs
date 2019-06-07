@@ -1,0 +1,14 @@
+<minecraft:ender_chest>.displayName = "Personal Ender Chest";
+<minecraft:ender_chest>.addTooltip(format.darkAqua("Only For Personal Use"));
+<StevesCarts:CartModule:61>.displayName = "Infinity Engine";
+<StevesCarts:CartModule:61>.addTooltip(format.lightPurple("Perpetual Locomotion"));
+<StevesCarts:upgrade:14>.displayName = "Upgrade: Integrated Infinity Reactor";
+<StevesCarts:CartModule:76>.displayName = "Quantum Minecart Hull";
+<StevesCarts:CartModule:81>.displayName = "Galgadorian Minecart Hull";
+<StevesCarts:CartModule:39>.displayName = "Reinforced Minecart Hull";
+<StevesCarts:CartModule:38>.displayName = "Standard Minecart Hull";
+<StevesCarts:CartModule:37>.displayName = "Wooden Minecart Hull";
+<appliedenergistics2:tile.BlockCreativeEnergyCell>.displayName = "Neutronium Energy Cell";
+<appliedenergistics2:tile.BlockCreativeEnergyCell>.addTooltip(format.lightPurple("Infinite Energy"));
+<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).displayName = "Chaotic Capacitor Bank";
+<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).addTooltip(format.lightPurple("Infinite Energy"));

@@ -1,0 +1,14 @@
+mods.gregtech.Assembler.addRecipe(<IronChest:woodCopperUpgrade>, [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:18035> * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
+mods.gregtech.Assembler.addRecipe(<IronChest:woodIronUpgrade>, [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:18032> * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);
+mods.gregtech.Assembler.addRecipe(<IronChest:copperIronUpgrade>, [<gregtech:gt.metaitem.01:17035>, <gregtech:gt.metaitem.01:18032>, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);
+mods.gregtech.Assembler.addRecipe(<IronChest:copperSilverUpgrade>, [<gregtech:gt.metaitem.01:17035>, <gregtech:gt.metaitem.01:18305>, <gregtech:gt.integrated_circuit:2> * 0], null, 400, 30);
+mods.gregtech.Assembler.addRecipe(<IronChest:ironGoldUpgrade>, [<gregtech:gt.metaitem.01:17032>, <gregtech:gt.metaitem.01:18086>, <gregtech:gt.integrated_circuit:2> * 0], null, 500, 64);
+mods.gregtech.Assembler.addRecipe(<IronChest:silverGoldUpgrade>, [<gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:18086>, <gregtech:gt.integrated_circuit:2> * 0], null, 500, 64);
+mods.gregtech.Assembler.addRecipe(<IronChest:goldDiamondUpgrade>, [<gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 600, 120);
+mods.gregtech.Assembler.addRecipe(<IronChest:diamondCrystalUpgrade>, [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17890> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 700, 256);
+mods.gregtech.Assembler.addRecipe(<IronChest:diamondObsidianUpgrade>, [<gregtech:gt.metaitem.01:17500>, <IC2:itemDensePlates:7>, <gregtech:gt.integrated_circuit:2> * 0], null, 800, 256);
+oreDict.chestSilver.remove(<IronChest:BlockIronChest:4>);
+oreDict.chestSteel.add(<IronChest:BlockIronChest:4>);
+mods.nei.NEI.overrideName(<IronChest:BlockIronChest:4>, "Steel <minecraft:chest>");
+mods.nei.NEI.overrideName(<IronChest:copperSilverUpgrade>, "Copper To Steel <minecraft:chest> Upgrade");
+mods.nei.NEI.overrideName(<IronChest:silverGoldUpgrade>, "Steel To Gold <minecraft:chest> Upgrade");
